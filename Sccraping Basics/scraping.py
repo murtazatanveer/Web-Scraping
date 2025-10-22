@@ -29,8 +29,8 @@ soup = BeautifulSoup(web.text,"html.parser");
 # print(soup.img);
 # print(soup.section);
 
-with open("index.html", "w", encoding="utf-8") as file:
-    file.write(soup.prettify());
+with open("comsats.html","w",encoding="utf-8") as f:
+    f.write(soup.prettify());
 
 
 
